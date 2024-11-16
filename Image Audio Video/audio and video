@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <strong>THIS IS MY MOST LIKED MUSIC</strong>
+    <Audio controls autoplay>
+        <source src="Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp3"
+    </Audio>
+
+<p>THIS IS MY FAVORITE VIDEO </p>
+<video width="300"  height="300"control autoplay poster="QWJo.gif"loop>
+    <source src=a937028b069a95c04013d4ec9d162559_w200.gif type="video/mp4">
+your browser oes not support video tag
+</video>
+</body>
+</html>
