@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<body>
+    <header>
+        <h2>Navigation links</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="post">post</a></li>
+<li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    
+<h2>Facts About Dogs</h2>
+<p>A dog has sharp teeth so that it can eat flesh very easily, it has four legs, two ears, two eyes, a tail, a mouth, and a
+nose. It is a very clever animal and is very useful in catching thieves. It runs very fast, barks loudly and attacks the
+strangers. A dog saves the life of the master from danger.
+</p>
+<aside>
+<p>
+    dog has a strong power of smell. They are more liked by people because of their faithfulness. They are intelligent, they
+    are watchfulness. The dogs have many colors such as grey, white, black, brown and red. They are of many kinds such as
+    bloodhound, greyhound, german shepherd, Labrador, Rottweiler, bulldog poodle, etc.
+</p>
+</aside>
+<figure>
+    <img src="dog-8198719_640.webp" image height="300" width="250">
+</figure>
+<audio controls>
+    <source src="Dogs Barking Sound Effect (1).mp4">
+</audio>
+<video src="Dog_gif.gif" controls></video>
+<embed src="Dog_gif.gif"/>
+<footer>
+    <h2> contact - 977 9867028777</h2>
+</footer>
+</body>
+</html>
