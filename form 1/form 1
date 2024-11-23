@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Personal Deatails </h1>
+    <form>
+        <fieldset>
+        <label> Name</label><br>
+        <input text ='text' id="name"> </input><br><br>
+        <label> Email ID</label><br>
+        <input text='text' id="Email"> <br> <br>
+        <label>  Contact number (this will be hidden)</label><br>
+        <input text="Password" id="contact"> <br><br>
+        <label> Gender</label><br>
+        <input
+        type="radio"id="female"name="gender"value="female"> female<br>
+        <input
+        type="radio"id="male"name="gender"value="male" >female<br>
+        <label> Favorite city</label>
+        <input   
+        type="checkbox box"id="city"name="new delhi"value="new delhi"new dilhi><br>
+       <input
+        type="checkbox box"id="city"name="mumbai"value="mumbai"mumbai><br>
+
+  <label> Birthday</label> <input type="date" id="Birthday" name="birthday"> <br>
+</fieldset>
+    </form>
+</body>
+</html>
