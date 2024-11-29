@@ -1,0 +1,22 @@
+ /*global CSS*/ 
+ *{ background-color: orange;
+    font-size: 30px;
+    font-weight: 500;
+ }
+ /*External CSS*/
+ h3{
+    color:blue;
+ }
+  /*element Selector*/
+.myclas{
+      color: orange;
+}
+   /*class selector*/
+   #myid{
+       color:yellow;
+   }
+          /*group selector*/
+          h5 p {
+              color: rgb(255, 0, 153);
+          }
+   
