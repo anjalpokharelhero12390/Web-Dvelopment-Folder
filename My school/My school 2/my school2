@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> My school</h2>
+    <h1> LRI school</h1>
+    <p><image src ="contact-us-banner1673591768 (1).webp" hight ="300" width="300"></image></p>
+    <b> <i>  <P> My school name is lri school . ther are more than 2000 students and 300+ teacher . it has class upto +2 (twelve) It has more than 20 bulidings</i></b><strong> For more information click on this link</strong>
+        <a href="https:lri.edu.np/"> LRI school </a>
+    
+</body>
+</html>
