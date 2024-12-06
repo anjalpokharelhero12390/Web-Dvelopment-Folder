@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style>
+
+    #grad1{
+     height: 400px;
+     background-color: red;/* for broser that  does not supports gradirnts*/
+     background-image: linear-gradient(to top right, red,orange,green,purple,violet );
+
+    }
+
+    </style>
+    </head>
+    <body>
+<div id="grad1"style="text-align:center:auto ;color:#88888;font-size:40px; font-weight:bold"> Welcome to codingal</div>
+    
+    
+</body>
+</html>
