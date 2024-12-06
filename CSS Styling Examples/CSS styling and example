@@ -11,9 +11,8 @@
         color:green;
     }
     
-
-</style>
-<!--External CSS-->
+<!--external CSS -->
+    </style
 <link rel="stylesheet"href='style.CSS'>
 <body>
     <hr>

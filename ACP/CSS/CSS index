@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS styling example</title>
+</head>
+<!--internal CSS-->
+<style>
+    h2 {
+        color: blue;
+    }
+  < !--external CSS --></style <link rel="stylesheet" href='style.CSS'>
+
+<body>
+    <hr>
+    <!--inline CSS-->
+    <h1 style="color:red">Inline CSS example</h1>
+<!--intrnal CSS-->
+<h2>Internal CSS example</h2>
+  <!--external CSS-->
+<h2>External CSS example</h2>
+ <hr>
+ <h4>Element selector Example</h4>
+ <h4>Element selector Example</h4>
+ <hr>
+<h2 class="ayclass">Class selector example</h2>
+ <h2 my id="my id">id selector example</h2>
+<h2 class="ayclass">Class selector example</h2>
+ <h5>group selector example</h5>
+   <p>group selector example</p>
+</body>
+
+</html>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
