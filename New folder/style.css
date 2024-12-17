@@ -1,0 +1,34 @@
+body{
+    font-family: 'Arial';
+    background-color: antiquewhite;
+    color:black;
+}
+h1{
+    color: aqua;
+
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color : orange ;
+}
+ul>li{
+    font-weight: bold;
+}
+h1+p {
+    background-color: rgb(255, 205, 249);
+    padding: 1opx;
+     border-radius: 5px;
+}
+ul li :hover {
+color: brown;
+}
+ul li:nth-child(3){
+    background-color:red;
+}
+ui li:before{
+    content:"url=(images (3).png)" ;
+}
+
