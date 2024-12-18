@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Table of hertage of nepal </h1>
+
+</head>
+<body>
+    <table border ="5">
+<tr>
+<th>Name</th>
+<th>Established date</th>
+<th>District</th>
+
+</tr>
+<tr>
+<td>Boudhanath Stupa</td>
+<td>14th century</td>
+<td>Kathmandu</td>
+</tr>
+<tr>
+    <td>Pashupatinath mandir</td>
+    <td>5th century AD</td>
+    <td>Kathmandu</td>
+</tr>
+<tr>
+<td>Lumbini</td>
+<td>3rd century BC</td>
+<td>Rupendehi</td>
+
+</tr>
+<tr>
+<td>Chitawan Natinal Park</td>
+<td>1973 BC</td>
+<td>Chitawan</td>
+
+</tr>
+    </table>
+    <h2>FOR INFORMATION CLICK ON THIS WEBSITE-</h2> <a href="https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Nepal"> CLICK HERE</a>
+    
+</body>
+</html>             
