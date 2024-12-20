@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div {
+            right: 30px;
+            border: 3px solid green;
+
+        }
+        div.absolute {
+            position: absolute;
+            left: 50px;
+            border: 3px solid green;
+
+        }
+        div.relative{
+            position:relative;
+            left: 100px;
+            border: solid 3px green;
+        }
+        div.fixed{
+            position: fixed;
+            top: 0;
+            left: 20px;
+            width: 100px;
+            border: solid green ;
+        }
+        div.stiky{
+            position: sticky;
+            top: 1px;
+            left: 20px;
+            width: 100px;
+            border: 3px solid green;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <!--Change the position to show difference
+    static
+    relative
+    absolute
+    sticky-->
+    <h2>Positioning</h2>
+    <div>
+        div with no position property
+    </div>
+    <div class="sticky">
+        Div with sticy postion property
+    </div>
+    <div class="relative">
+        This div element have position: relative;
+        </div>
+        <div class="absolute">
+            Absolute class Div
+        </div>
+    </div>
+    <div class="fixed">
+     Div with fixed position property
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
