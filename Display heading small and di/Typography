@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+<title>mark</title>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+    <h1>Abberviation</h1>
+    <p>It is used to mark up an Abberviation or acronyms</p>
+    <p><abbr title="Codingal">cdgl</abbr>Was found in 2020</p>
+    <h1>Blockquotes</h1>
+    <p> IT is used to present content from another source:</p>
+    <blockquote class="Blockquotes">
+        <p>Codingal is an mission to inspire the School</p>
+        <footer class="Blockquotes">From Codingal</footer>
+        </blockquote>
+        <h1> Multiple code line</h1>
+        <p>For multiple of line of code, use pre-element:</p>
+        <pre>Codingal is on mission
+            to inspire all the school kides
+        </pre>
+        <h1>Keyboard input</h1>
+        <p>To indicate input that is typically entered the via the keyboard,used to  kbd element</p>
+        <p>Use <kbd>ctrl + p</kbd>to open the print dialog box.</p>
+        
+    <p>Use <kbd>ctrl + p</kbd>to open the print dialog box.</p>
+    
+    <input type="color" name="" id="">
+
+
+
+</body>
+</html>
