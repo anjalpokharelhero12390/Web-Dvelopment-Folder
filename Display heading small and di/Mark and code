@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>mark</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <p>CO<sub>2</sub></p>
+    <p>a<sup>2</sup></p>
+    <div class="container">
+        <h1> Highlighted Text</h1>
+        <p>Use mark Element to<mark>Highlight</mark> the text</p>
+    </div>
+    <div class="container">
+        <h1> code sinippets</h1>
+        <p> Inline sinippets shoud be embbeded in the code element:</p>
+        <p> Following html element:</p>
+        <code>Span</code>,
+     
+        <code> Section</code> and <code> Div</code> Defines a section in Document
+    </div>
+    
+</body>
+</html>
