@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title> bookstrap jumbotrum</title>
+    <link rel="stylesheet" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.cs">
+
+    <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+  
+   
+</head>
+<body style="text-align:center;">
+
+    <div class="jumbotron jumbotron-fluid">
+
+        <div class="container">
+
+            <h1 style="color:orange;">
+
+                Codingal
+
+            </h1>
+            <p>codingal will help you to fall in love with coding</p>
+
+        
+        </div>
+        </div>
+        <div class="at at-3"></div>
+        <p>Button</p>
+        <button type="button" class="btn btn-primary">primary</button>
+        <button type="button" class="btn btn-secondary">secondary</button>
+        <button type="button" class="btn btn-sucess">success</button>
+        <button type="button" class="btn btn-warnimg">Warning</button>
+        <button type="button" class="btn btn-danger">danger</button>
+        
+</body>
+
+    
+</body>
+</html>
