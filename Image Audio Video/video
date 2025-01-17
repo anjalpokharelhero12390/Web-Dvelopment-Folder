@@ -4,13 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<p>THIS IS MY FAVORITE VIDEO </p>
-<video width="300" height="300" control autoplay poster="QWJo.gif" loop>
-    <source src=a937028b069a95c04013d4ec9d162559_w200.gif type="video/mp4">
-    your browser oes not support video tag
-</video>
-
-</html>
+</head>
+<body><h2><strong>THIS IS MY FAVORIT VIDEO</strong></h2>
+    < v
+    
 </body>
-
 </html>
