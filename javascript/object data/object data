@@ -1,0 +1,57 @@
+!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h2>JavaScript Variables: Objects and Arrays</h2>
+
+<p id="objKey"></p>
+
+<p id="arrIndex"></p>
+
+<p id="joinArray"></p>
+
+<p id="beforePop"></p>
+
+<p id="afterPop"></p>
+
+<script>
+
+// Creating an object with key-value pairs
+
+var person = {name: "John", age: 25, city: "New York"};
+
+// Creating an array
+
+var colors = ["Red", "Blue", "Green", "Yellow"];
+
+// Displaying object value using key
+
+document.getElementById("objKey").innerHTML = "Name: " + person.name;
+
+// Displaying array value using index
+
+document.getElementById("arrIndex").innerHTML = "Second color: " + colors[1];
+
+// Using join() to display the entire array as a string
+
+document.getElementById("joinArray").innerHTML = "Colors (joined): " + colors.join(" - ");
+
+// Displaying array before pop
+
+document.getElementById("beforePop").innerHTML = "Before pop: " + colors;
+
+// Using pop() to remove the last element
+
+colors.pop();
+
+// Displaying array after pop
+
+document.getElementById("afterPop").innerHTML = "After pop: " + colors;
+
+</script>
+
+</body>
+
+</html>
