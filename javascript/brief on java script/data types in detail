@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>JavScript Data types</title>
+   
+</head>
+<body>
+    <h1>JavaScript Data Types</h1>
+    <script>
+        var a = 8;
+        var b = 10;
+        var d = null;
+        var e;
+        {
+            let a = 2;
+            const b = 8;
+
+        }
+        document.write("a and b are equal:" + (a==b));
+        document.write ("<br>");
+        document.write ("The value of d is :" + d)
+        document.write("<br>");
+
+        document.write("the value of d is : " + e)
+        document.write("<br>");
+
+        document.write("the value of d is :" + a)
+        document.write("<br>");
+
+        document.write("the value of d is :" + b)
+        document.write("<br>");
+
+
+
+
+    
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Dash</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: skyblue;
+            overflow: hidden;
+        }
+
+        canvas {
+            background: white;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Mario Dash - Avoid Obstacles!</h2>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById("gameCanvas");
+        const ctx = canvas.getContext("2d");
+
+        let mario = { x: 50, y: 300, width: 50, height: 50, dy: 0, gravity: 0.5, jumpPower: -10, isJumping: false };
+        let obstacles = [];
+        let score = 0;
+        let gameOver = false;
+        let gameSpeed = 3;
+
+        function drawMario() {
+            ctx.fillStyle = "red";
+            ctx.fillRect(mario.x, mario.y, mario.width, mario.height);
+        }
+
+        function drawObstacles() {
+            ctx.fillStyle = "black";
+            obstacles.forEach(obstacle => {
+                ctx.fillRect(obstacle.x, obstacle.y, obstacle.width, obstacle.height);
+            });
+        }
+
+        function jump() {
+            if (!mario.isJumping) {
+                mario.dy = mario.jumpPower;
+                mario.isJumping = true;
+            }
+        }
+
+        function update() {
+            if (gameOver) return;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Mario Gravity
+            mario.dy += mario.gravity;
+            mario.y += mario.dy;
+            if (mario.y > 300) {
+                mario.y = 300;
+                mario.isJumping = false;
+            }
+
+            // Move Obstacles
+            obstacles.forEach(obstacle => {
+                obstacle.x -= gameSpeed;
+            });
+
+            // Add New Obstacles
+            if (Math.random() < 0.02) {
+                obstacles.push({ x: canvas.width, y: 330, width: 30, height: 30 });
+            }
+
+            // Remove Passed Obstacles
+            obstacles = obstacles.filter(obstacle => obstacle.x + obstacle.width > 0);
+
+            // Check Collision
+            obstacles.forEach(obstacle => {
+                if (
+                    mario.x < obstacle.x + obstacle.width &&
+                    mario.x + mario.width > obstacle.x &&
+                    mario.y < obstacle.y + obstacle.height &&
+                    mario.y + mario.height > obstacle.y
+                ) {
+                    gameOver = true;
+                    alert("Game Over! Score: " + score);
+                    document.location.reload();
+                }
+            });
+
+            score++;
+            drawMario();
+            drawObstacles();
+            ctx.fillStyle = "black";
+            ctx.fillText("Score: " + score, 10, 20);
+            requestAnimationFrame(update);
+        }
+
+        document.addEventListener("keydown", event => {
+            if (event.code === "Space") {
+                jump();
+            }
+        });
+
+        update();
+    </script>
+</body>
+
+</html>
