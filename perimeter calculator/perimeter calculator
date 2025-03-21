@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    
+    <body>
+        <script>
+           var choice = prompt("Welcome to Area Calculator. \n Please Enter your choice. \n1.Area of Rectangle. \n2.Area of square ." )
+    if (choice == '1') { 
+                var l = prompt("Enter the Length")
+                var b =prompt("Enter the breadth") 
+                var result = Number(l)+ Number(b)
+                var sresult=result*2
+                alert('The perimeter ' + sresult) 
+    }
+            if (choice = '2') {
+                var l= prompt("Enter the length")
+                var result= Number (l) * 4
+                alert('The perimeter is ' + result) 
+            }
+    
+    </script>
+ </body>
+</html>
