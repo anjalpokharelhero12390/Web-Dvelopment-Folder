@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>shopping list </title>
+        <style>
+            body {
+                background-color: #2c3e50; 
+                color: white; 
+                font-family: Arial, sans-serif;
+                text-align: center;
+                padding: 20px;
+            }
+            
+        </style>
+        </head>
+        
+        
+    <body>
+       
+        <h3>Add your shopping  here</h3>
+        <form id="myForm">
+            <input id="myInput" type="text">
+            <button> Add </button>
+        </form>
+        <br>
+        <h3>shopping list (remove it after you shop)</h3>
+        <ul id="myItem"></ul>
+        <script>
+            var myForm =document.getElementById("myForm");
+            var myInput= document.getElementById("myInput");
+            var myItem =document.getElementById("myItem");
+            myForm.addEventListener("submit",
+                    function (event) {
+                        event.preventDefault();
+                        createItem(myInput.value); 
+                    });
+                function createItem(inputItems) {
+                     var items=`<li>{inputItems}
+                        <button onclick="deleteElement(this)">Delete</button> </li>`; 
+                        
+                    myItem.insertAdjacentHTML("beforeend", items);
+                    myInput.value -""; 
+                    myInput.focus();
+                }
+                function deleteElement(ElementToDelete) {
+                        ElementToDelete.parentElement.remove();
+                }
+
+
+               </script>
+        
+    </body>
+</html>
