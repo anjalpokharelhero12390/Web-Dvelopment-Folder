@@ -37,7 +37,7 @@
                         createItem(myInput.value); 
                     });
                 function createItem(inputItems) {
-                     var items=`<li>{inputItems}
+                     var items=`<li>${inputItems}
                         <button onclick="deleteElement(this)">Delete</button> </li>`; 
                         
                     myItem.insertAdjacentHTML("beforeend", items);
