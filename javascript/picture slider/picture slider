@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+</head>
+
+<body>
+
+    <section>
+        <img class="mySlides" src="chicken-chow-mein-recipe.jpg " style="height: 500px;">
+        <img class="mySlides" src="deccanherald_import_sites_dh_files_article_images_2019_02_26_file745961w0uudq6jh12c9-1551128044.avif" style="height: 500px;">
+        <img class="mySlides" src="images (35).jpeg" style="height: 500px;">
+        <img class="mySlides" src="Moist-Chicken-Burgers.jpg" style="height: 500px;">
+        <img class="mySlides" src="Nice_food (1).jpg" style="height: 500px;">
+    </section>
+    <script>
+        var my_index = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            my_index++;
+            if (my_index > x.length) {
+                my_index = 1;
+            }
+            x[my_index - 1].style.display = "block";
+            setTimeout(carousel, 2000)
+        }
+    </script>
+
+</body>
+
+</html>
