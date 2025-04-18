@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nvigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        .topnav {
+            overflow: hidden;
+            background-color:
+                #333333;
+        }
+    
+        .topnav a {
+            float: left;
+            color: #1affa3;
+            text-align: center;
+            padding: 14px 16px;
+        }
+        .topnav a:hover {
+            background-color: dimgrey;
+            color: black ;
+        }
+        .topnav a.active {
+            background-color: yellow;
+            color: black;
+
+        }
+        </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <!--slider-->
+    <section>
+        <img class="mySlides" src="download (8).jpg" style="height: 500px;">
+        <img class="mySlides" src="download (7).jpg" style="height: 500px;">
+        <img class="mySlides" src="download (6).jpg" style="height: 500px;">
+    </section>
+    <script>
+        var my_index = 0;
+        carousel();
+        function  carousel(){
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                my_index++;
+                if (my_index > x.length) {
+                    my_index = 1;
+                }
+                x[my_index - 1].style.display = "block";
+                setTimeout(carousel, 2000); 
+            }
+        </script>
+    
+</body>
+</html>
