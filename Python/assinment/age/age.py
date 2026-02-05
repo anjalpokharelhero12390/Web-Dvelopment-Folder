@@ -1,17 +1,13 @@
 from tkinter import *
 from datetime import date
-
 def calculate_age():
     try:
         d = int(day_entry.get())
         m = int(month_entry.get())
         y = int(year_entry.get())
-
         today = date.today()
         birth_date = date(y, m, d)
-
         age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))
-
         result_label.config(text=f"Your Age is: {age} years")
     except:
         result_label.config(text="Please enter valid numbers!")
